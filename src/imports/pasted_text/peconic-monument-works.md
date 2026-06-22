@@ -23,18 +23,18 @@ Founded in 1842 on Griffing Avenue, Peconic Monument Works has served Long Islan
 
 LEGACY / ABOUT STRIP
 From a marker to a mausoleum
-Established in 1842, Peconic Monument Works has been specializing in memorials at the same Riverhead location for over 172 years. We strive to offer superior customer service to our families, while providing the highest quality memorials that truly depict your vision. From a simple flat marker to an elaborate mausoleum, we are your full service memorial shop. We also specialize in cemetery lettering, repair work, and cleaning services. Our goal in working with each family is to make the process of designing a memorial as easy and encouraging as possible. We have a large indoor display of memorials to help families see some of the size, design, and finish options available. Although we have a variety of memorials on hand, please know that each memorial is custom made. Every memorial is created by the hands of skilled craftsmen who cut and personalize each memorial and ultimately create a cherished representation of a loved one's life. A memorial is a reflection of personal taste, but it is also the way one will be remembered for generations to come. It can even be the only permanent purchase a family makes in their lifetime.
-
+Established in 1842, Peconic Monument Works has been helping families honor their loved ones for generations. From simple flat markers to mausoleums, we are a full-service memorial shop offering custom memorials, cemetery lettering, repairs, and cleaning services.
+Our goal is to make the design process as easy and comforting as possible. Our indoor display helps families explore different sizes, styles, and finish options before creating a memorial that truly reflects their loved one.
 
 SERVICES SECTION — 6 CARDS
 Full-Service Memorial Care
 — Section label: WHAT WE OFFER —
 Card 1 — Custom Headstones
-Upright and flat monuments crafted from granite, marble, and fine stone — shaped and engraved to reflect a life uniquely lived.
-Card 2 — Mausoleums & Monuments
+Upright and flat monuments shaped and engraved to reflect a life uniquely lived.
+Card 2 — Monuments
 Above-ground structures and large family monuments for a distinctive and lasting tribute of grandeur.
 Card 3 — Bronze Markers
-Flat bronze and granite markers — including pet memorials — crafted with the same care given to every monument.
+Flat bronze and granite markers.
 Card 4 — Cemetery Lettering
 Addition of names, dates, and inscriptions to existing monuments — performed with precision at the cemetery site.
 Card 5 — Repair & Restoration
@@ -47,11 +47,11 @@ PROCESS SECTION — 4 STEPS
 Designed Around Your Family
 — Section label: HOW IT WORKS —
 Step I — Consultation
-We listen to your vision and guide you through all options — shapes, stones, finishes, and symbols.
+We listen to your vision and guide you through all options shapes, stones, finishes, and symbols.
 Step II — Design
-A personalized design is created with your chosen inscriptions and artwork — refined until it feels right.
+A personalized design is created with your chosen inscriptions and artwork refined until it feels right.
 Step III — Crafting
-Skilled craftsmen hand-cut each memorial. Our indoor showroom lets you review all options in person.
+Skilled craftsmen carve each memorial. Our indoor showroom lets you review all options in person.
 Step IV — Installation
 We handle all cemetery installation and coordinate with cemetery regulations on your behalf.
 
@@ -213,7 +213,7 @@ Personalized markers and monuments for beloved pets — crafted with the same lo
 MATERIALS SECTION — 4 SWATCHES
 Our Materials
 — Section label: STONE OPTIONS —
-We use only the finest natural stone, sourced from trusted quarries and chosen for beauty and longevity. Every material we offer is appropriate for cemetery use and will weather gracefully for generations.
+We use only the finest natural stone, sourced from trusted quarries. Every material we offer is appropriate for cemetery use and will weather gracefully for generations.
 Black Granite
 The most popular choice — durable, striking, and accepts fine detail engraving beautifully.
 Gray Granite
@@ -242,8 +242,6 @@ A partner for all your creative and institutional needs.
 INTRO SECTION
 No Project Too Simple or Too Complex
 — Section label: WHAT WE OFFER —
-When you partner with Peconic Monument Works, you gain nearly two centuries of stone-working expertise applied to schools, churches, municipal buildings, parks, and organizations across Long Island.
-
 
 TAB 1 — BRICKS & PAVERS
 Engraved bricks and pavers are ideal for donor recognition and fundraising. We partner with schools, churches, universities, and civic organizations to honor members with lasting engraving in brick, granite, limestone, and marble — names, logos, or fully custom artwork.

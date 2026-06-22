@@ -1,45 +1,33 @@
 import { motion } from "motion/react";
 import { Link } from "react-router";
-import { Type, Wrench, Sparkles, Hammer } from "lucide-react";
+import { fadeInUp } from "../lib/motion.ts";
+
+const services = [
+  {
+    id: "lettering",
+    title: "Cemetery Lettering",
+    description: "We add names, dates, and inscriptions directly to existing monuments at the cemetery, on site. We can add a spouse's name, new dates, or any inscription you need."
+  },
+  {
+    id: "repair",
+    title: "Repair & Restoration",
+    description: "We repair broken, tilted, sunken, or damaged monuments and restore them to their proper upright condition. All restoration work is performed with deep respect for the memorial and those it honors."
+  },
+  {
+    id: "cleaning",
+    title: "Cleaning Services",
+    description: "Professional cleaning removes years of weathering, biological growth, and staining from granite and marble using safe, gentle techniques that preserve the stone's integrity."
+  },
+  {
+    id: "installation",
+    title: "Monument Installation",
+    description: "We coordinate and perform all monument installation at cemeteries across Long Island, handling all compliance with individual cemetery regulations on your behalf."
+  }
+];
 
 export default function Services() {
-  const services = [
-    {
-      id: "lettering",
-      icon: Type,
-      title: "Cemetery Lettering",
-      description: "We add names, dates, and inscriptions directly to existing monuments at the cemetery. Our craftsmen perform precise, hand-cut work on site. We can add a spouse's name or a new inscription."
-    },
-    {
-      id: "repair",
-      icon: Wrench,
-      title: "Repair & Restoration",
-      description: "We repair broken, tilted, sunken, or damaged monuments and restore them to their proper upright condition. All restoration work is performed with deep respect for the memorial and those it honors."
-    },
-    {
-      id: "cleaning",
-      icon: Sparkles,
-      title: "Cleaning Services",
-      description: "Professional cleaning removes years of weathering, biological growth, and staining from granite and marble using safe, gentle techniques that preserve the stone's integrity."
-    },
-    {
-      id: "installation",
-      icon: Hammer,
-      title: "Monument Installation",
-      description: "We coordinate and perform all monument installation at cemeteries across Long Island, handling all compliance with individual cemetery regulations on your behalf."
-    }
-  ];
-
-  const fadeInUp = {
-    initial: { opacity: 0, y: 30 },
-    whileInView: { opacity: 1, y: 0 },
-    viewport: { once: true },
-    transition: { duration: 0.6 }
-  };
-
   return (
     <div className="min-h-screen">
-      {/* Page Banner */}
       <section className="bg-primary text-primary-foreground py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -50,9 +38,7 @@ export default function Services() {
             <nav className="text-sm mb-4 text-primary-foreground/70">
               <Link to="/" className="hover:text-primary-foreground">Home</Link> › Services
             </nav>
-            <h1 className="text-5xl md:text-6xl mb-4" style={{ fontFamily: 'var(--font-display)' }}>
-              Cemetery & Memorial Services
-            </h1>
+            <h1 className="text-5xl md:text-6xl mb-4">Cemetery & Memorial Services</h1>
             <p className="text-xl text-primary-foreground/80">
               Expert work performed at the cemetery and in our Riverhead shop.
             </p>
@@ -60,7 +46,6 @@ export default function Services() {
         </div>
       </section>
 
-      {/* Services Grid */}
       <section className="py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -70,46 +55,22 @@ export default function Services() {
                 id={service.id}
                 {...fadeInUp}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-card p-8 md:p-12 border border-border hover:border-accent transition-all group"
+                className="bg-card p-8 md:p-12 border border-border hover:border-accent transition-all"
               >
-                <service.icon className="w-16 h-16 text-accent mb-6 group-hover:scale-110 transition-transform" />
-                <h2 className="text-3xl mb-4" style={{ fontFamily: 'var(--font-display)' }}>
-                  {service.title}
-                </h2>
-                <p className="text-lg text-muted-foreground leading-relaxed">
-                  {service.description}
-                </p>
+                <h2 className="text-3xl mb-4">{service.title}</h2>
+                <p className="text-lg text-muted-foreground leading-relaxed">{service.description}</p>
               </motion.div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Image Section */}
       <section className="py-20 bg-muted">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div {...fadeInUp}>
-            <img
-              src="https://images.unsplash.com/photo-1771573391500-64cc1cbb3e7b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxzdG9uZSUyMGNhcnZpbmclMjBjcmFmdHNtYW58ZW58MXx8fHwxNzc2MTMyNTU5fDA&ixlib=rb-4.1.0&q=80&w=1080"
-              alt="Stone carving craftsmanship"
-              className="w-full h-[500px] object-cover border-8 border-card"
-            />
-            <p className="mt-6 text-center text-lg text-muted-foreground italic">
-              Our skilled craftsmen bring decades of experience to every restoration and lettering project.
-            </p>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="py-20 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div {...fadeInUp}>
-            <h2 className="text-4xl md:text-5xl mb-6" style={{ fontFamily: 'var(--font-display)' }}>
-              How Can We Help?
-            </h2>
+            <h2 className="text-4xl md:text-5xl mb-6">Have a Question?</h2>
             <p className="text-lg text-muted-foreground mb-8">
-              Whether you need cemetery lettering, restoration, or cleaning services, we're here to assist.
+              Call us at (631) 727-4170 or send a message and we'll get back to you.
             </p>
             <Link
               to="/contact"

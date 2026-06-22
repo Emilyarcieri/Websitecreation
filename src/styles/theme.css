@@ -6,32 +6,32 @@
   --font-body: 'Outfit', sans-serif;
   --font-size: 16px;
 
-  /* Monument-inspired Color Palette with Blue Accent */
-  --background: #faf9f7;
+  /* Peconic Monument Color Palette */
+  --background: #f8f7f5;
   --foreground: #2a2826;
   --card: #ffffff;
   --card-foreground: #2a2826;
   --popover: #ffffff;
   --popover-foreground: #2a2826;
   --primary: #2a2826;
-  --primary-foreground: #faf9f7;
-  --secondary: #8b7355;
-  --secondary-foreground: #faf9f7;
-  --muted: #e8e6e3;
-  --muted-foreground: #6b6562;
-  --accent: #4a7c9e;
-  --accent-foreground: #faf9f7;
-  --accent-alt: #a67c52;
-  --accent-alt-foreground: #faf9f7;
+  --primary-foreground: #f8f7f5;
+  --secondary: #d9cdb3;
+  --secondary-foreground: #2a2826;
+  --muted: #d9cdb3;
+  --muted-foreground: #a7a9ab;
+  --accent: #5F8282;
+  --accent-foreground: #ffffff;
+  --accent-alt: #d4d5d6;
+  --accent-alt-foreground: #2a2826;
   --destructive: #b8503f;
   --destructive-foreground: #ffffff;
-  --border: rgba(42, 40, 38, 0.12);
-  --input: rgba(42, 40, 38, 0.12);
+  --border: rgba(167, 169, 171, 0.4);
+  --input: rgba(167, 169, 171, 0.4);
   --input-background: #ffffff;
-  --switch-background: #cbced4;
+  --switch-background: #d4d5d6;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
-  --ring: #a67c52;
+  --ring: #5F8282;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
